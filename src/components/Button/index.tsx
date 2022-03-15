@@ -4,7 +4,7 @@ class Button extends React.Component {
 	render(){
 		return(
 			
-			<button type="button" className="btn btn-primary">
+			<button type="submit" className="btn btn-primary">
 				Save
 			</button>
 		);
