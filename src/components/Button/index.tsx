@@ -4,7 +4,9 @@ class Button extends React.Component {
 	render(){
 		return(
 			
-			<button type="submit" className="btn btn-primary">
+			<button type="submit" className="btn btn" style={{
+				backgroundColor: '#B0E0E6'
+			}}>
 				Save
 			</button>
 		);
