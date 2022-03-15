@@ -1,11 +1,12 @@
 import React from 'react';
 import Button from '../Button';
+import './style.scss';
 
 class Form extends React.Component {
 	render(){
 		return(
-			<form>
-				<div>
+			<form className="novaTarefa">
+				<div className="inputContainer">
 					<label htmlFor="task">
 						add new study
 					</label>
@@ -16,7 +17,7 @@ class Form extends React.Component {
 						placeholder="What to study today?"
 						required/>
 				</div>	
-				<div>
+				<div className="inputContainer">
 					<label htmlFor="time">
 						time
 					</label>
